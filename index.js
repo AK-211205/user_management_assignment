@@ -41,7 +41,7 @@ app.use(cookieParser());
 
 
 app.use(cors({
-  origin: 'http://localhost:3000', // Frontend URL
+  origin: 'https://user-management-frontend-ashen.vercel.app/', // Frontend URL
   credentials: true, // Allow cookies
 }));
 
